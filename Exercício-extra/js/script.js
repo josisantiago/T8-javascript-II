@@ -70,4 +70,16 @@ formulario.addEventListener("submit", function(evento){
         formulario.reset();
         erro.textContent = "";
     }
-});
+})
+
+const meuLink = document.getcreateElement("a");
+const mae =  document.getElementById("sou-a-mae");
+mae.appendChild(meuLink);
+meuLink.textContent = "Site do Pudim"
+// abaixo, modos de chamar um link em nova aba
+meulink.setAttribute("href", "http://pudim.com.br");
+meulink.setAttribute("target", "_blank");
+const link = document.getElementById("bratz");
+const endereco = link.getAttribute ("href");
+
+// element.setAttribute(name, value);
